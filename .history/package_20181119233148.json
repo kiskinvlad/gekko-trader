@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "test": "mocha test/*.js --recursive test -u tdd --reporter spec",
-    "start": "npm install --only=production && cd exchange && npm install --only=production && cd .. && node ./gekko --config config.js --ui"
+    "start": "node ./gekko --config config.js --ui",
+    "preinstall" : "npm install --only=production"
   },
   "author": "Mike van Rossum <mike@mvr.me>",
   "dependencies": {
