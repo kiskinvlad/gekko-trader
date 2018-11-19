@@ -28,7 +28,7 @@ const CONFIG = {
   },
   ui: {
       ssl: true,
-      host: 'gekko-trader-bot.herokuapp.com',
+      host: 'gekko-trader-bot.herokuapp.com/',
       port: 443,
       path: '/' // change this if you are serving from something like `example.com/gekko`
   },
