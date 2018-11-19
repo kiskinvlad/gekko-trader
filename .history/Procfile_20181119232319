@@ -1,0 +1,2 @@
+worker: npm install --only=production
+node gekko.js -c sample-config.js

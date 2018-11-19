@@ -1,5 +1,5 @@
 worker: npm install --only=production &&
 cd exchange &&
-npm install --only=production &&
-cd .. &&
+npm install --only=production
+cd ..
 && node gekko.js -c sample-config.js
