@@ -27,9 +27,9 @@ const CONFIG = {
     port: process.env.PORT || 3000,
   },
   ui: {
-    ssl: false,
-    host: 'gekko-trader-bot.herokuapp.com',
-    port: 3000,
+      ssl: true,
+      host: 'localhost',
+      port:  3000,
       path: '/' // change this if you are serving from something like `example.com/gekko`
   },
   adapter: 'sqlite'
