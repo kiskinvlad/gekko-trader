@@ -23,13 +23,13 @@
 const CONFIG = {
   headless: true,
   api: {
-    host: '127.0.0.1',
-    port: 3000,
+      host: '127.0.0.1',
+      port: 3000,
   },
   ui: {
-    ssl: false,
-    host: 'localhost',
-    port: 3000,
+      ssl: true,
+      host: 'ec2-34-215-173-160.us-west-2.compute.amazonaws.com',
+      port: 443,
       path: '/' // change this if you are serving from something like `example.com/gekko`
   },
   adapter: 'sqlite'
