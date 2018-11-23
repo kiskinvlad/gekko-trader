@@ -27,9 +27,9 @@ const CONFIG = {
       port: 3000,
   },
   ui: {
-      ssl: true,
-      host: '',
-      port: 443,
+      ssl: false,
+      host: '', //here you address
+      port: 3000,
       path: '/' // change this if you are serving from something like `example.com/gekko`
   },
   adapter: 'sqlite'
