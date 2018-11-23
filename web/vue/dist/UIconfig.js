@@ -28,7 +28,7 @@ const CONFIG = {
   },
   ui: {
       ssl: true,
-      host: 'ec2-34-215-173-160.us-west-2.compute.amazonaws.com',
+      host: '',
       port: 443,
       path: '/' // change this if you are serving from something like `example.com/gekko`
   },
