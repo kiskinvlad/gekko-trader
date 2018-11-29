@@ -28,7 +28,7 @@ const CONFIG = {
   },
   ui: {
       ssl: false,
-      host: '', //here you address
+      host: 'localhost', //here you address
       port: 3000,
       path: '/' // change this if you are serving from something like `example.com/gekko`
   },
